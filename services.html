@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Services | M&amp;G Maintenance</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="index.html" aria-label="M&amp;G Maintenance home">
+        <img src="assets/logo.png" alt="M&amp;G Maintenance" class="site-logo">
+      </a>
+      <nav class="site-nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h1>Our Services</h1>
+      <p class="tagline">M&amp;G Maintenance delivers the right cleaning and maintenance solution for your facility.</p>
+      <div class="hero-cta">
+        <a href="#contact" class="btn btn-primary">Contact Us Today</a>
+      </div>
+    </section>
+
+    <section>
+      <h2 class="section-title">Professional Cleaning &amp; Maintenance</h2>
+      <p class="intro-text">
+        We offer commercial cleaning and maintenance for offices, medical facilities, retail, and more across the region. Our services include janitorial care, floor and carpet care, disinfecting, and high-touch surface cleaning. We work around your schedule and are available 24/7 for emergencies.
+      </p>
+
+      <div class="service-block">
+        <h3>Commercial &amp; Janitorial Cleaning</h3>
+        <p>We build custom commercial cleaning plans for your facility and provide reliable janitorial service—workspaces, break rooms, restrooms, kitchens, and floors—so your building stays clean and professional for employees, visitors, and clients.</p>
+        <a href="#contact" class="btn btn-primary">Request a Quote</a>
+      </div>
+
+      <div class="service-block">
+        <h3>Office &amp; Medical Facilities</h3>
+        <p>We design office cleaning plans that keep your space immaculate and support a healthy environment. For healthcare settings, we follow protocols suited to medical facilities and help maintain a clean, safe space for patients and staff.</p>
+        <a href="#contact" class="btn btn-primary">Request a Quote</a>
+      </div>
+
+      <div class="service-block">
+        <h3>Floor &amp; Carpet Care</h3>
+        <p>Floors and carpets affect how your facility looks and feels. We strip, wax, and refinish hard floors and deep-clean carpets to restore appearance, remove dirt and allergens, and extend the life of your flooring.</p>
+        <a href="#contact" class="btn btn-primary">Request a Quote</a>
+      </div>
+
+      <div class="service-block">
+        <h3>Preventative Cleaning</h3>
+        <p>Touch point cleaning and disinfectant misting help limit the spread of germs. We clean high-traffic surfaces—door handles, elevator buttons, light switches, phones, keyboards—and offer disinfectant misting to reduce bacteria and pathogens in your space.</p>
+        <a href="#contact" class="btn btn-primary">Request a Quote</a>
+      </div>
+
+      <div class="service-block">
+        <h3>Customized Schedules</h3>
+        <p>Every property is different. We assess your space and set up nightly, daily, or weekly cleaning programs that fit your operations and keep your location consistently maintained.</p>
+        <a href="#contact" class="btn btn-primary">Request a Quote</a>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+      <div style="max-width: 1200px; margin: 0 auto;">
+        <h2>Contact Us</h2>
+        <p>Request a quote or ask a question using the form below. We’ll get back to you soon.</p>
+        <form name="contact" method="POST" action="/thanks.html" data-netlify="true" netlify-honeypot="bot-field">
+          <input type="hidden" name="form-name" value="contact">
+          <p class="form-group hp">
+            <label for="bot-field">Don’t fill this out</label>
+            <input name="bot-field" id="bot-field" type="text" tabindex="-1" autocomplete="off">
+          </p>
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone</label>
+            <input type="tel" id="phone" name="phone">
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required></textarea>
+          </div>
+          <div class="form-actions">
+            <button type="submit" class="btn btn-primary">Send Message</button>
+          </div>
+        </form>
+        <p style="margin-top: 1.5rem;">
+          You can also email us directly at <a href="mailto:info@mgmaintenance.com">info@mgmaintenance.com</a>.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <img src="assets/logo.png" alt="M&amp;G Maintenance" class="footer-logo">
+      <ul class="footer-contact">
+        <li>123 Main St, Rochester, NY 14600</li>
+        <li><a href="tel:+15551234567">(555) 123-4567</a></li>
+        <li>Mon–Fri: 9am–4:30pm &nbsp;|&nbsp; Sat–Sun: Closed &nbsp;|&nbsp; 24/7 for emergency calls</li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
