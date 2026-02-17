@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Employment | M&amp;G Maintenance</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="index.html" aria-label="M&amp;G Maintenance home">
+        <img src="assets/logo.png" alt="M&amp;G Maintenance" class="site-logo">
+      </a>
+      <nav class="site-nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="employment.html">Employment</a></li>
+          <li><a href="index.html#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h1>Join Our Team</h1>
+      <p class="tagline">M&amp;G Maintenance is always looking for reliable, hardworking people to grow with us across Orange County.</p>
+      <div class="hero-cta">
+        <a href="#apply" class="btn btn-primary">Apply Now</a>
+      </div>
+    </section>
+
+    <section>
+      <h2 class="section-title">Why Work With Us</h2>
+      <p class="intro-text">
+        We are a family-owned business built on trust, respect, and hard work. When you join M&amp;G Maintenance, you become part of a team that takes pride in the work we do and the clients we serve throughout Orange County and surrounding areas.
+      </p>
+
+      <div class="service-block">
+        <h3>Flexible Scheduling</h3>
+        <p>We offer morning, evening, and overnight shifts to work around your life. Full-time and part-time positions are available depending on current openings.</p>
+      </div>
+
+      <div class="service-block">
+        <h3>Steady Work</h3>
+        <p>Our clients are businesses, offices, and medical facilities that rely on us consistently. That means reliable, recurring hours for our team members.</p>
+      </div>
+
+      <div class="service-block">
+        <h3>Supportive Team Environment</h3>
+        <p>We provide on-the-job training and work alongside our employees to make sure everyone has what they need to succeed. No prior experience required—just a strong work ethic and a good attitude.</p>
+      </div>
+
+      <div class="service-block">
+        <h3>Room to Grow</h3>
+        <p>We promote from within whenever possible. Many of our team leads started in entry-level cleaning positions. If you're dependable and motivated, there's a path forward here.</p>
+      </div>
+    </section>
+
+    <section class="contact-section" id="apply">
+      <div style="max-width: 1200px; margin: 0 auto;">
+        <h2>Apply Today</h2>
+        <p>Fill out the form below and we'll reach out to schedule a time to talk. We're looking for people who are punctual, dependable, and take pride in their work.</p>
+        <form name="employment" method="POST" action="/thanks.html" data-netlify="true" netlify-honeypot="bot-field">
+          <input type="hidden" name="form-name" value="employment">
+          <p class="form-group hp">
+            <label for="bot-field">Don't fill this out</label>
+            <input name="bot-field" id="bot-field" type="text" tabindex="-1" autocomplete="off">
+          </p>
+          <div class="form-group">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div class="form-group">
+            <label for="availability">Availability (days/hours you can work)</label>
+            <input type="text" id="availability" name="availability" placeholder="e.g. Mon–Fri evenings, weekends">
+          </div>
+          <div class="form-group">
+            <label for="experience">Relevant Experience (if any)</label>
+            <textarea id="experience" name="experience" placeholder="Tell us about any cleaning, janitorial, or maintenance experience. No experience needed—just let us know."></textarea>
+          </div>
+          <div class="form-group">
+            <label for="message">Anything else you'd like us to know?</label>
+            <textarea id="message" name="message"></textarea>
+          </div>
+          <div class="form-actions">
+            <button type="submit" class="btn btn-primary">Submit Application</button>
+          </div>
+        </form>
+        <p style="margin-top: 1.5rem;">
+          Prefer to reach out directly? Email us at <a href="mailto:mandgmaintenanceOC@gmail.com">mandgmaintenanceOC@gmail.com</a>.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <img src="assets/logo.png" alt="M&amp;G Maintenance" class="footer-logo">
+      <ul class="footer-contact">
+        <li>Anaheim, CA</li>
+        <li><a href="tel:+15551234567">(555) 123-4567</a></li>
+        <li>Mon–Fri: 9am–4:30pm &nbsp;|&nbsp; Sat–Sun: Closed &nbsp;|&nbsp; 24/7 for emergency calls</li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
