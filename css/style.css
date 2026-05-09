@@ -78,7 +78,7 @@ a:hover {
 .hero-overlay {
   position: absolute;
   inset: 0;
-  background: rgba(18, 45, 30, 0.55);
+  background: rgba(18, 45, 30, 0.68);
   z-index: 0;
 }
 
@@ -91,13 +91,12 @@ a:hover {
 
 .hero-badge {
   display: inline-block;
-  background: rgba(255, 255, 255, 0.18);
-  border: 1px solid rgba(255, 255, 255, 0.45);
-  color: var(--mg-white);
-  padding: 0.3rem 1rem;
+  background: rgba(255, 255, 255, 0.95);
+  color: var(--mg-green);
+  padding: 0.35rem 1.1rem;
   border-radius: 999px;
   font-size: 0.85rem;
-  font-weight: 600;
+  font-weight: 700;
   letter-spacing: 0.04em;
   margin-bottom: 1.2rem;
 }
@@ -111,10 +110,11 @@ a:hover {
 }
 
 .hero-with-bg .tagline {
-  color: rgba(255, 255, 255, 0.92);
+  color: #ffffff;
   font-size: clamp(1rem, 2vw, 1.15rem);
   margin-bottom: 2rem;
   line-height: 1.6;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
 }
 
 .hero-cta {
@@ -122,6 +122,21 @@ a:hover {
   flex-wrap: wrap;
   gap: 1rem;
   justify-content: center;
+}
+
+.btn-hero-primary {
+  background: var(--mg-orange);
+  color: var(--mg-white);
+  font-weight: 700;
+  border: none;
+  border-radius: 6px;
+  transition: background 0.2s;
+}
+
+.btn-hero-primary:hover,
+.btn-hero-primary:focus {
+  background: var(--mg-orange-light);
+  color: var(--mg-white);
 }
 
 .btn-hero-outline {
@@ -302,9 +317,8 @@ section.cta-banner {
 }
 
 .footer-logo {
-  height: 60px;
+  height: 80px;
   width: auto;
-  filter: brightness(0) invert(1);
 }
 
 .footer-tagline {
