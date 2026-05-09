@@ -194,6 +194,49 @@ section.trust-strip {
   opacity: 0.85;
 }
 
+/* ─── Interior page hero ────────────────────────── */
+.page-hero {
+  background: var(--mg-green);
+  color: var(--mg-white);
+  padding: 3.5rem 1rem;
+}
+
+.page-hero h1 {
+  font-size: clamp(1.75rem, 4vw, 2.5rem);
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.page-hero p {
+  font-size: 1.05rem;
+  opacity: 0.9;
+  margin: 0;
+}
+
+/* ─── Service cards (interior pages) ───────────── */
+.service-card-simple {
+  background: var(--mg-white);
+  border: 1px solid #e8e8e8;
+  border-radius: 10px;
+  padding: 1.75rem;
+  height: 100%;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.06);
+}
+
+.service-card-simple h3 {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--mg-green);
+  margin-bottom: 0.6rem;
+}
+
+.service-card-simple p {
+  color: var(--mg-charcoal);
+  font-size: 0.95rem;
+  line-height: 1.65;
+  margin-bottom: 1rem;
+}
+
 /* ─── Section titles ────────────────────────────── */
 .section-title {
   font-size: clamp(1.6rem, 3vw, 2.1rem);
@@ -353,6 +396,46 @@ section.cta-banner {
   flex-direction: column;
   gap: 0.5rem;
   font-size: 0.9rem;
+}
+
+/* ─── About page ────────────────────────────────── */
+.about-values {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.about-value-item h4 {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--mg-green);
+  margin-bottom: 0.25rem;
+}
+
+.about-value-item p {
+  font-size: 0.95rem;
+  color: var(--mg-gray);
+  margin: 0;
+}
+
+.mission-section {
+  background: var(--mg-gray-light);
+}
+
+.hiring-banner {
+  background: var(--mg-green);
+  color: var(--mg-white);
+  padding: 3rem 1rem;
+}
+
+.hiring-banner h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.hiring-banner p {
+  opacity: 0.9;
+  font-size: 1rem;
 }
 
 /* ─── Scroll offset for sticky nav ─────────────── */
