@@ -4,133 +4,266 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>M&amp;G Maintenance | Professional Cleaning &amp; Maintenance</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <header class="site-header">
-    <div class="header-inner">
-      <a href="index.html" aria-label="M&amp;G Maintenance home">
-        <img src="assets/logo.png" alt="M&amp;G Maintenance" class="site-logo">
+
+  <nav class="navbar navbar-expand-md bg-white sticky-top border-bottom">
+    <div class="container-xl">
+      <a class="navbar-brand" href="index.html">
+        <img src="assets/logo.png" alt="M&amp;G Maintenance" style="height:64px;width:auto;display:block;">
       </a>
-      <nav class="site-nav">
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="services.html">Services</a></li>
-          <li><a href="employment.html">Employment</a></li>
-          <li><a href="#contact">Contact</a></li>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu" aria-controls="navMenu" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto align-items-md-center gap-md-2">
+          <li class="nav-item"><a class="nav-link fw-semibold" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link fw-semibold" href="services.html">Services</a></li>
+          <li class="nav-item"><a class="nav-link fw-semibold" href="employment.html">Employment</a></li>
+          <li class="nav-item mt-2 mt-md-0"><a class="btn btn-brand ms-md-2 px-4" href="#contact">Get a Quote</a></li>
         </ul>
-      </nav>
+      </div>
     </div>
-  </header>
+  </nav>
 
   <main>
+
+    <!-- Hero -->
     <section class="hero hero-with-bg">
       <div class="hero-overlay" aria-hidden="true"></div>
       <div class="hero-content">
-        <h1>Professional Maintenance &amp; Cleaning in Orange County, CA</h1>
-        <p class="tagline">M&amp;G Maintenance is a family-owned business that provides quality cleaning and maintenance throughout Orange County and surrounding cities and counties.</p>
+        <span class="hero-badge">Orange County, CA &amp; Surrounding Areas</span>
+        <h1>Professional Cleaning for Offices, Medical Facilities &amp; Retail</h1>
+        <p class="tagline">M&amp;G Maintenance is a family-owned business delivering dependable commercial cleaning and janitorial services across Orange County.</p>
         <div class="hero-cta">
-          <a href="tel:+15551234567" class="btn btn-primary">Call to Schedule an Appointment</a>
-          <a href="services.html" class="btn btn-hero-outline">Our Services</a>
+          <a href="#contact" class="btn btn-brand btn-lg px-5">Request a Free Quote</a>
+          <a href="services.html" class="btn btn-hero-outline btn-lg px-5">View Our Services</a>
         </div>
       </div>
     </section>
 
-    <section>
-      <h2 class="section-title">Commercial, Janitorial, Office, Medical &amp; Floor Care</h2>
-      <p class="intro-text">
-        M&amp;G Maintenance is a family-owned business providing thorough, reliable cleaning and maintenance for businesses and institutions across the region. We focus on commercial and institutional clients—offices, medical facilities, retail, and more—and we also consider select residential inquiries. Contact us to discuss your needs and we’ll put together a plan that fits your space and schedule. We offer flexible scheduling (nightly, daily, or weekly) and are available around the clock for urgent requests.
-      </p>
-
-      <div class="service-block">
-        <h3>Commercial Cleaning</h3>
-        <p>Our team creates customized commercial cleaning plans for your facility. Whether you need nightly, daily, or weekly service, we tailor our approach to keep your building clean and presentable for employees and visitors.</p>
-      </div>
-
-      <div class="service-block">
-        <h3>Janitorial Services</h3>
-        <p>We handle everyday janitorial duties so your workspaces, break rooms, restrooms, kitchens, and floors stay clean and sanitary. Consistent janitorial care keeps your space looking professional for colleagues, clients, and customers.</p>
-      </div>
-
-      <div class="service-block">
-        <h3>Office Cleaning</h3>
-        <p>Every office has different needs. We work with you to design an office cleaning plan that keeps your space immaculate, helps reduce the spread of germs, and supports a productive work environment.</p>
-      </div>
-
-      <div class="service-block">
-        <h3>Medical &amp; Healthcare Facilities</h3>
-        <p>Patient and visitor safety is paramount. We provide cleaning and disinfecting services suited to healthcare settings, with attention to the specific protocols and guidelines that keep medical facilities safe and compliant.</p>
-      </div>
-
-      <div class="service-block">
-        <h3>Floor Stripping &amp; Waxing</h3>
-        <p>Well-maintained floors make a strong impression. Our staff strip, refinish, and wax hard-surface floors to protect them and extend their life, so your facility always looks its best.</p>
-      </div>
-
-      <div class="service-block">
-        <h3>Carpet Cleaning</h3>
-        <p>Carpets in lobbies, hallways, and conference rooms collect dirt and allergens. We deep-clean carpets to remove embedded soil and stains, restore appearance, and help extend the life of your carpet.</p>
-      </div>
-
-      <div class="service-block">
-        <h3>Nightly, Daily &amp; Weekly Programs</h3>
-        <p>We assess your property and recommend a schedule that works for you—nightly, daily, or weekly. You get a cleaning plan that matches your operations and keeps your location consistently cared for.</p>
-      </div>
-
-      <div class="service-block">
-        <h3>Touch Point Cleaning &amp; Disinfectant Misting</h3>
-        <p>We clean high-touch surfaces—door handles, elevator buttons, keyboards, and more—and offer disinfectant misting to reduce the spread of germs, bacteria, and pathogens in your space.</p>
+    <!-- Trust strip -->
+    <section class="trust-strip">
+      <div class="trust-inner">
+        <div class="trust-badge">
+          <div class="trust-icon">&#10003;</div>
+          <strong>Family-Owned &amp; Operated</strong>
+          <span>Built on trust &amp; hard work</span>
+        </div>
+        <div class="trust-badge">
+          <div class="trust-icon">&#10003;</div>
+          <strong>Orange County &amp; Beyond</strong>
+          <span>Serving surrounding cities &amp; counties</span>
+        </div>
+        <div class="trust-badge">
+          <div class="trust-icon">&#10003;</div>
+          <strong>Flexible Scheduling</strong>
+          <span>Nightly, daily, or weekly programs</span>
+        </div>
       </div>
     </section>
 
-    <section class="contact-section" id="contact">
-      <div style="max-width: 1200px; margin: 0 auto;">
-        <h2>Contact Us</h2>
-        <p>Request a quote or ask a question using the form below. We’ll get back to you soon.</p>
-        <form name="contact" method="POST" action="/thanks.html" data-netlify="true" netlify-honeypot="bot-field">
-          <input type="hidden" name="form-name" value="contact">
-          <p class="form-group hp">
-            <label for="bot-field">Don’t fill this out</label>
-            <input name="bot-field" id="bot-field" type="text" tabindex="-1" autocomplete="off">
-          </p>
-          <div class="form-group">
-            <label for="name">Name</label>
-            <input type="text" id="name" name="name" required>
+    <!-- Services -->
+    <section class="py-5 py-md-6">
+      <div class="container-xl">
+
+        <div class="text-center mb-5">
+          <h2 class="section-title">Our Services</h2>
+          <p class="intro-text mx-auto">We serve offices, medical facilities, retail spaces, and property managers across Orange County with customized cleaning plans tailored to your facility and schedule.</p>
+        </div>
+
+        <!-- 1: text left, image right -->
+        <div class="row align-items-center g-4 g-lg-5 service-row">
+          <div class="col-md-5">
+            <p class="service-eyebrow">Commercial</p>
+            <h3 class="service-row-title">Commercial Cleaning</h3>
+            <p class="service-row-desc">Dependable commercial cleaning for offices, businesses, and facilities that need clean, safe, and professional spaces. Services may include dusting, trash removal, restroom cleaning, breakroom cleaning, vacuuming, mopping, and disinfecting high-touch areas.</p>
+            <a href="services.html#contact" class="service-link">Request a Quote &rarr;</a>
           </div>
-          <div class="form-group">
-            <label for="phone">Phone</label>
-            <input type="tel" id="phone" name="phone">
+          <div class="col-md-7">
+            <img src="assets/commercial-cleaning.png" class="img-fluid rounded-4 shadow-sm service-img" alt="M&amp;G Maintenance team member cleaning an office workspace">
           </div>
-          <div class="form-group">
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email" required>
+        </div>
+
+        <hr class="service-divider">
+
+        <!-- 2: image left, text right -->
+        <div class="row align-items-center g-4 g-lg-5 service-row">
+          <div class="col-md-7">
+            <img src="assets/property-turnover-cleaning.png" class="img-fluid rounded-4 shadow-sm service-img" alt="M&amp;G Maintenance team member cleaning a residential kitchen during property turnover">
           </div>
-          <div class="form-group">
-            <label for="message">Message</label>
-            <textarea id="message" name="message" required></textarea>
+          <div class="col-md-5">
+            <p class="service-eyebrow">Property</p>
+            <h3 class="service-row-title">Property Turnover Cleaning</h3>
+            <p class="service-row-desc">We help property managers, landlords, and rental property owners prepare units between tenants. Services may include move-out cleaning, kitchen and bathroom cleaning, floor care, trash removal, surface cleaning, supply checks, and issue reporting.</p>
+            <a href="services.html#contact" class="service-link">Request a Quote &rarr;</a>
           </div>
-          <div class="form-actions">
-            <button type="submit" class="btn btn-primary">Send Message</button>
+        </div>
+
+        <hr class="service-divider">
+
+        <!-- 3: text left, image right -->
+        <div class="row align-items-center g-4 g-lg-5 service-row">
+          <div class="col-md-5">
+            <p class="service-eyebrow">Janitorial</p>
+            <h3 class="service-row-title">Janitorial Services</h3>
+            <p class="service-row-desc">Recurring janitorial support for commercial spaces that need consistent cleaning and upkeep. Services may include restroom service, trash removal, floor maintenance, common area cleaning, supply restocking, and scheduled tasks based on your needs.</p>
+            <a href="services.html#contact" class="service-link">Request a Quote &rarr;</a>
           </div>
-        </form>
-        <p style="margin-top: 1.5rem;">
-          You can also email us directly at <a href="mailto:mandgmaintenanceOC@gmail.com">mandgmaintenanceOC@gmail.com</a>.
-        </p>
+          <div class="col-md-7">
+            <img src="assets/janitorial-services.png" class="img-fluid rounded-4 shadow-sm service-img" alt="M&amp;G Maintenance team member mopping a commercial hallway floor">
+          </div>
+        </div>
+
+        <hr class="service-divider">
+
+        <!-- 4: image left, text right -->
+        <div class="row align-items-center g-4 g-lg-5 service-row">
+          <div class="col-md-7">
+            <img src="assets/facility-maintenance-support.png" class="img-fluid rounded-4 shadow-sm service-img" alt="M&amp;G Maintenance team member conducting a supply inspection in a commercial hallway">
+          </div>
+          <div class="col-md-5">
+            <p class="service-eyebrow">Maintenance</p>
+            <h3 class="service-row-title">Facility Maintenance Support</h3>
+            <p class="service-row-desc">Light maintenance support to help businesses, property managers, and facility owners identify and manage basic upkeep needs. Services may include visual inspections, issue reporting, restocking supplies, and coordination support.</p>
+            <a href="services.html#contact" class="service-link">Request a Quote &rarr;</a>
+          </div>
+        </div>
+
+        <hr class="service-divider">
+
+        <!-- 5: text left, image right -->
+        <div class="row align-items-center g-4 g-lg-5 service-row">
+          <div class="col-md-5">
+            <p class="service-eyebrow">Office</p>
+            <h3 class="service-row-title">Office Cleaning</h3>
+            <p class="service-row-desc">Office cleaning services for businesses that want a clean, organized, and professional workplace. Services may include cleaning desks and common areas, emptying trash, vacuuming, mopping, restroom cleaning, breakroom cleaning, and disinfecting high-touch surfaces.</p>
+            <a href="services.html#contact" class="service-link">Request a Quote &rarr;</a>
+          </div>
+          <div class="col-md-7">
+            <img src="assets/office-cleaning.png" class="img-fluid rounded-4 shadow-sm service-img" alt="M&amp;G Maintenance team member disinfecting an office desk">
+          </div>
+        </div>
+
+        <hr class="service-divider">
+
+        <!-- 6: image left, text right -->
+        <div class="row align-items-center g-4 g-lg-5 service-row">
+          <div class="col-md-7">
+            <img src="assets/move-out-move-in-cleaning.png" class="img-fluid rounded-4 shadow-sm service-img" alt="M&amp;G Maintenance team member mopping floors in an empty residential unit">
+          </div>
+          <div class="col-md-5">
+            <p class="service-eyebrow">Move</p>
+            <h3 class="service-row-title">Move-Out and Move-In Cleaning</h3>
+            <p class="service-row-desc">Move-out and move-in cleaning support for rental properties, commercial spaces, and managed units. Services may include cleaning kitchens, bathrooms, floors, windowsills, cabinets, appliances, and common areas.</p>
+            <a href="services.html#contact" class="service-link">Request a Quote &rarr;</a>
+          </div>
+        </div>
+
+        <hr class="service-divider">
+
+        <!-- 7: text left, image right -->
+        <div class="row align-items-center g-4 g-lg-5 service-row">
+          <div class="col-md-5">
+            <p class="service-eyebrow">Quality</p>
+            <h3 class="service-row-title">Quality Control Inspections</h3>
+            <p class="service-row-desc">We use quality control inspections to help customers feel confident that cleaning and maintenance services are completed properly. Inspections may include reviewing completed tasks, checking high-priority areas, documenting issues, and following up on missed items.</p>
+            <a href="services.html#contact" class="service-link">Request a Quote &rarr;</a>
+          </div>
+          <div class="col-md-7">
+            <img src="assets/quality-control-inspections.png" class="img-fluid rounded-4 shadow-sm service-img" alt="M&amp;G Maintenance supervisor conducting a quality control inspection">
+          </div>
+        </div>
+
       </div>
     </section>
+
+    <!-- CTA Banner -->
+    <section class="cta-banner">
+      <div class="cta-banner-inner">
+        <h2>Ready to Keep Your Facility Clean?</h2>
+        <p>Tell us about your space and we'll put together a plan that fits your needs and schedule.</p>
+        <a href="#contact" class="btn btn-brand btn-lg px-5">Request a Free Quote</a>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact-section py-5 py-md-6" id="contact">
+      <div class="container-xl">
+        <div class="row g-5 align-items-start">
+          <div class="col-md-4">
+            <h2 class="mb-3">Request a Free Quote</h2>
+            <p class="text-muted">Fill out the form and we'll get back to you with a cleaning plan and estimate tailored to your facility.</p>
+            <p class="mt-3">
+              <span class="d-block text-muted mb-1">Prefer email?</span>
+              <a href="mailto:mandgmaintenanceOC@gmail.com" class="fw-semibold">mandgmaintenanceOC@gmail.com</a>
+            </p>
+          </div>
+          <div class="col-md-8">
+            <form name="contact" method="POST" action="/thanks.html" data-netlify="true" netlify-honeypot="bot-field">
+              <input type="hidden" name="form-name" value="contact">
+              <p class="form-group hp">
+                <label for="bot-field">Don't fill this out</label>
+                <input name="bot-field" id="bot-field" type="text" tabindex="-1" autocomplete="off">
+              </p>
+              <div class="row g-3">
+                <div class="col-sm-6">
+                  <label for="name" class="form-label fw-semibold">Name</label>
+                  <input type="text" id="name" name="name" class="form-control" required>
+                </div>
+                <div class="col-sm-6">
+                  <label for="phone" class="form-label fw-semibold">Phone</label>
+                  <input type="tel" id="phone" name="phone" class="form-control">
+                </div>
+                <div class="col-12">
+                  <label for="email" class="form-label fw-semibold">Email</label>
+                  <input type="email" id="email" name="email" class="form-control" required>
+                </div>
+                <div class="col-12">
+                  <label for="message" class="form-label fw-semibold">Tell us about your facility</label>
+                  <textarea id="message" name="message" class="form-control" rows="5" required placeholder="Type of facility, size, services needed, preferred schedule..."></textarea>
+                </div>
+                <div class="col-12">
+                  <button type="submit" class="btn btn-brand btn-lg px-5">Request a Free Quote</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
   </main>
 
-  <footer class="site-footer">
-    <div class="footer-inner">
-      <img src="assets/logo.png" alt="M&amp;G Maintenance" class="footer-logo">
-      <ul class="footer-contact">
-        <li>Anaheim, CA</li>
-        <li><a href="tel:+15551234567">(555) 123-4567</a></li>
-        <li>Mon–Fri: 9am–4:30pm &nbsp;|&nbsp; Sat–Sun: Closed &nbsp;|&nbsp; 24/7 for emergency calls</li>
-      </ul>
+  <footer class="site-footer py-5">
+    <div class="container-xl">
+      <div class="row g-4">
+        <div class="col-md-5">
+          <img src="assets/logo.png" alt="M&amp;G Maintenance" class="footer-logo mb-3">
+          <p class="footer-tagline">Professional cleaning &amp; maintenance for Orange County businesses.</p>
+        </div>
+        <div class="col-md-4">
+          <ul class="footer-contact list-unstyled">
+            <li>Anaheim, CA &mdash; Serving Orange County &amp; Surrounding Areas</li>
+            <li><a href="mailto:mandgmaintenanceOC@gmail.com">mandgmaintenanceOC@gmail.com</a></li>
+            <li>Mon&ndash;Fri: 9am&ndash;4:30pm &nbsp;|&nbsp; Sat&ndash;Sun: Closed</li>
+            <li>Family-Owned &amp; Operated</li>
+          </ul>
+        </div>
+        <div class="col-md-3">
+          <ul class="list-unstyled footer-nav-list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="employment.html">Employment</a></li>
+            <li><a href="#contact">Get a Quote</a></li>
+          </ul>
+        </div>
+      </div>
     </div>
   </footer>
 
-  <script src="js/main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
